@@ -172,3 +172,35 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ==== TrapdoorGAN-specific additions ====
+
+# Checkpoints and model weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated results and outputs
+results/
+outputs/
+*.png
+*.jpg
+*.jpeg
+*.bmp
+
+# Dataset archives or temp files
+*.zip
+*.tar.gz
+*.npy
+*.npz
+*.h5
+dataset/
+
+# Logs and plots
+*.log
+*.csv
+plots/
+
+# Notebook output caches (optional, if you convert notebooks to .py)
+__output__/
