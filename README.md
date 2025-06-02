@@ -40,7 +40,7 @@ trapdoor-gan/
 Clone the repository and set up the environment:
 
 ```bash
-git clone https://github.com/your-username/trapdoor-gan.git
+git clone https://github.com/TechTitanR/trapdoor-gan.git
 cd trapdoor-gan
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
